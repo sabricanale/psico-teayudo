@@ -1,8 +1,9 @@
 import './App.css';
-import Carrousel from './Components/Carousel/Carousel';
-import Encabezado from './Components/Encabezado/Encabezado';
-import Footer from './Components/Footer/Footer';
-import Servicios from './Components/Servicios/Servicios';
+import Carrousel from './Components/Carousel';
+import Encabezado from './Components/Encabezado';
+import Footer from './Components/Footer';
+import Servicios from './Components/Servicios';
+import Somos from './Components/Somos';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Encabezado/>
       <Carrousel/>
       <Servicios/>
+      <Somos/>
       <Footer/>
     </div>
   );
