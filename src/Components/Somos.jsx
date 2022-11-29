@@ -4,7 +4,7 @@ const Somos = () => {
     return(
         <div>
             <div className="w-100 mx-auto text-center pt-3" id="intro">
-    <h1 className="animate__animated animate__fadeInDown text-center p-3 fs-2 mt-2 fw-bold" id="titulo2">¿Quiénes somos?</h1>
+    <h1 className="animate__animated animate__fadeInDown text-center p-3 fs-1 mt-2 fw-bold" id="Nosotras">¿Quiénes somos?</h1>
         <p className="text-center fs-5 p-3"><span className="text-dark fw-bold">PsicoTeAyudo</span> pretende tener una participación activa en aquellas personas que están atravesando una situación de vulnerabilidad, paralizadas ante una problemática determinada y buscan ayuda terapéutica. Nuestro equipo cuenta con las herramientas terapéuticas para adecuarlas a cada paciente, atendiendo la circunstancia que esté atravesando.</p>
 </div>
   <div className="row justify-content-around p-4 mx-auto">

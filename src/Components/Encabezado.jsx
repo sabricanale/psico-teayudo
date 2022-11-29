@@ -19,8 +19,22 @@ const Encabezado = () => {
                                 <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="#">Inicio</a>
                                 </li>
+                                <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#Servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <ul className="dropdown-menu">
+                                    <li><a className="dropdown-item" href="#Servicios1">Relaciones personales</a></li>
+                                    <li><a className="dropdown-item" href="#Servicios2">Miedos</a></li>
+                                    <li><a className="dropdown-item" href="#Servicios3">Estrés y cansancio</a></li>
+                                    <li><a className="dropdown-item" href="#Servicios4">Toma de decisiones</a></li>
+                                    <li><a className="dropdown-item" href="#Servicios5">Ánimo</a></li>
+                                    <li><a className="dropdown-item" href="#Servicios6">Autoestima e inseguridades</a></li>
+                                </ul>
+                                </li>
+                                
                                 <li className="nav-item">
-                                <a className="nav-link" href="#">Quiénes somos</a>
+                                <a className="nav-link" href="#Nosotras">Quiénes somos</a>
                                 </li>
                                 <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,7 +61,10 @@ const Encabezado = () => {
                                 </ul>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link ">Contacto</a>
+                                <a className="nav-link" href="#Modalidad">Modalidad</a>
+                                </li>
+                                <li className="nav-item">
+                                <a className="nav-link " href="#Footer">Contacto</a>
                                 </li>
                             </ul>
                             </div>

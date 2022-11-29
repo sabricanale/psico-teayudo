@@ -96,6 +96,12 @@ h1 {
   font-family: "Julius Sans One";
 }
 
+h2 {
+  animation-delay: 2s;
+  color: black;
+  animation: miTitulo; 
+  font-family: "Julius Sans One";
+}
 
 @keyframes miTitulo {
   0% {
