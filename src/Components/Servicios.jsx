@@ -1,3 +1,4 @@
+import React from "react"
 
 const Servicios = () => {
     return(
@@ -9,7 +10,8 @@ const Servicios = () => {
                                    
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col-md-12 text-center fs-5" id="intro">
-                    <p>Todos atravesamos momentos difíciles, desde inseguridades personales hasta problemas en nuestras relaciones. Te invitamos a que empieces a transformar tu vida en terapia con un psicólogo online o cerca de tu zona</p>
+                    <p>En las diferentes etapas de la vida, vamos necesitando desarrollar y emplear otras capacidades que nos permitan vincularnos con nosotros mismos y los demás de manera saludable. Si estás teniendo reiterados problemas en tus vínculos más queridos, seguramente aparecen los enojos y malos entendidos. Esto trae como consecuencia  que el tiempo cada vez rinda menos, el aislamiento, las discusiones sin sentido, etc.
+                    Te podemos ayudar a que te des cuenta de tus recursos internos para integrarlos y potenciarlos aplicándolos de manera saludable y armoniosa.</p>
                 </div>
             <div className="col">
                 <div className="card h-100" id="Servicios1">
@@ -37,7 +39,7 @@ const Servicios = () => {
             </div>
             <div className="col">
                 <div className="card h-100" id="Servicios4">
-                    <img src="Images/Inseguridades" className="card-img-top" alt="Toma de decisiones"/>
+                    <img src="Images/Inseguridades.jpg" className="card-img-top" alt="Toma de decisiones"/>
                     <div className="card-body">
                         <p className="text-center fs-4 m-4" >Toma de decisiones</p>
                     </div>

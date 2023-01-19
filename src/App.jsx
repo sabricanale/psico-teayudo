@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Carrousel from './Components/Carousel';
 import Encabezado from './Components/Encabezado';
@@ -8,14 +9,19 @@ import Somos from './Components/Somos';
 
 function App() {
   return (
-    <div>
-      <Encabezado/>
-      <Carrousel/>
-      <Servicios/>
-      <Somos/>
-      <Modalidad/>
-      <Footer/>
-    </div>
+    
+      <div>
+
+          <Encabezado/>
+          <Carrousel/>
+          <Somos/>
+          <Servicios/> 
+          <Modalidad/>             
+          <Footer/>
+
+        </div>
+
+    
   );
 }
 
