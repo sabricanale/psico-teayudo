@@ -4,12 +4,12 @@ const Servicios = () => {
     return(
         <div>
             <div className="container">
-            <h1 className="animate__animated animate__fadeInDown text-center p-5 fs-1 mt-2 fw-bold" id="Servicios">¿Cómo podemos ayudarte?</h1>
+            <h1 className="animate__animated animate__fadeInDown text-center p-3 fs-1 mt-2 fw-bold" id="Servicios">¿Cómo podemos ayudarte?</h1>
     
         
                                    
             <div className="row row-cols-1 row-cols-md-3 g-4">
-                <div className="col-md-12 text-center fs-5" id="intro">
+                <div className="col-md-12 text-center fs-5">
                     <p>En las diferentes etapas de la vida, vamos necesitando desarrollar y emplear otras capacidades que nos permitan vincularnos con nosotros mismos y los demás de manera saludable. Si estás teniendo reiterados problemas en tus vínculos más queridos, seguramente aparecen los enojos y malos entendidos. Esto trae como consecuencia  que el tiempo cada vez rinda menos, el aislamiento, las discusiones sin sentido, etc.
                     Te podemos ayudar a que te des cuenta de tus recursos internos para integrarlos y potenciarlos aplicándolos de manera saludable y armoniosa.</p>
                 </div>

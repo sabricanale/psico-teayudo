@@ -84,8 +84,6 @@ p{
 
 
 @media (max-width: 768px) {
-  #intro {
-    width: 90% !important; }
   .servicio-fila {
     width: 100% !important;
     text-align: center; } }
@@ -93,7 +91,7 @@ p{
 @media (max-width: 576px) {
   .icono-wrap {
     flex-wrap: wrap;
-    justify-content: center !important; } }
+    justify-content: center !important; }  }
 
 @media (min-width: 992px) {
   .collapse {
