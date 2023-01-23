@@ -7,7 +7,6 @@ import Servicios from './Components/Servicios';
 import Somos from './Components/Somos';
 import { BrowserRouter } from 'react-router-dom';
 
-
 function App() {
   return (
     

@@ -17,6 +17,9 @@ const Encabezado = () => {
                                 <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="/">Inicio</a>
                                 </li>
+                                <li className="nav-item">
+                                <a className="nav-link" href="#Nosotras">¿Quiénes somos?</a>
+                                </li>
                                 <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#Servicios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Servicios
@@ -30,22 +33,11 @@ const Encabezado = () => {
                                     <li><a className="dropdown-item" href="#Servicios6">Autoestima e inseguridades</a></li>
                                 </ul>
                                 </li>
-                                
                                 <li className="nav-item">
-                                <a className="nav-link" href="#Nosotras">Quiénes somos</a>
+                                <a className="nav-link" href="#Modalidad">Precios</a>
                                 </li>
-                                <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Atendemos
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Adolescentes</a></li>
-                                    <li><a className="dropdown-item" href="#">Jóvenes</a></li>
-                                    <li><a className="dropdown-item" href="#">Adultos</a></li>
-                                    <li><a className="dropdown-item" href="#">Parejas</a></li>
-                                    <li><a className="dropdown-item" href="#">Familias</a></li>
-                                </ul>
-                                </li>
+                                
+                                
                                 <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Ofrecemos
